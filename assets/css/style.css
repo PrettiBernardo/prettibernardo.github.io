@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: #010b16;
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #ffa500;
 }
 
 a:hover {
-  color: #12d640;
+  color: #ffa500;
   text-decoration: none;
 }
 
@@ -61,6 +61,7 @@ h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
+  margin-top: 20px;
 }
 
 #header * {
@@ -86,7 +87,7 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #ffc107;
 }
 
 #header h2 span {
@@ -149,7 +150,10 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  margin-top: 35px;
+  margin-top: 25px;
+  padding: 4px;
+  background-color: #010B16;
+  box-shadow: 3px 2px 2px 1px rgba(255, 165, 0, 0.2);
 }
 
 .nav-menu ul {
@@ -174,7 +178,7 @@ h6 {
   border-width: 4px;
   border-style: solid;
   max-width: 250px;
-  box-shadow: 3px 2px 2px 1px rgba(255, 165, 0, 0.2);
+  box-shadow: 3px 2px 0px 2px rgb(94, 61, 0);
 }
 
 .nav-menu a {
@@ -209,7 +213,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-  color: #12d640;
+  color: #ffc107;
   text-decoration: none;
 }
 
@@ -762,7 +766,7 @@ section .container {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
-  color: #12d640;
+  color: #ffc107;
 }
 
 /*--------------------------------------------------------------
@@ -972,7 +976,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #12d640;
+  color: #ffc107;
 }
 
 .contact .php-email-form {
