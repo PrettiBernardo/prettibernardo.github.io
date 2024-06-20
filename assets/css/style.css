@@ -693,9 +693,11 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
+  justify-content: center;
   background: #09203a;
-  padding: 40px 40px;
+  padding: 10px 10px;
   transition: all ease-in-out 0.3s;
+  box-shadow: 3px 2px 0px 2px rgb(94, 61, 0);
   margin: 10px
 }
 
