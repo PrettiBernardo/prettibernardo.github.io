@@ -1158,3 +1158,21 @@ section .container {
         transform: translateX(-50%);
     }
 }
+
+
+.terminal {
+    background-color: #000;
+    /* Black background */
+    color: #00ff00;
+    /* Green text color */
+    font-family: 'Courier New', Courier, monospace;
+    /* Monospace font */
+    padding: 20px;
+    /* Padding around the content */
+    border-radius: 5px;
+    /* Rounded corners (optional) */
+    overflow: auto;
+    /* Scrollbar if content overflows */
+    box-shadow: inset 0 0 10px #00ff00;
+    /* Glowing effect (optional) */
+}
